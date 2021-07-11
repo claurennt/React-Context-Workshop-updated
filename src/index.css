@@ -1,0 +1,22 @@
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    padding-inline-start: 0px;
+}
+
+ul > li:not(:first-child) {
+    margin-left: 10px;
+}
+
+ul > li {
+    font-size: 1.3rem;
+    list-style-type: none;
+}

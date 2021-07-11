@@ -5,13 +5,15 @@ import Admin from "./Admin"
 import Signin from "./Signin"
 import Signup from "./Signup"
 import Logout from "./Logout"
+import unicornPic from "../src/pics/unicorns_inc.jpg"
 import { Link, Route, Switch } from "react-router-dom";
 
 const App = () => {
 
   return (
-    <div>
-      <ul>
+    <div className="main-container">
+      <img src={unicornPic} alt="Unicorns Inc" />
+      <ul className="menu">
         <li>
           <Link to="/">Home</Link>
         </li>
