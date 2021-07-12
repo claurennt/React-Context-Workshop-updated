@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Signin = () => {
 
 const login = () => {
-    console.log('logging in')
+    alert('some login functionality to be implemented')
 }
 
   return (
@@ -19,7 +19,7 @@ const login = () => {
         name="password"
         placeholder="Password"
       />
-      <button onClick={() => login()}>Login</button>
+      <button onClick={login}>Login</button>
       <br />
       <Link to="/signup">Signup</Link>
     </>
